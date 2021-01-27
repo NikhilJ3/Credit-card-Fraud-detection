@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CREDIT MANAGEMENT SYSTEM</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+</head> 
+<body>
+<form id="new1" runat="server">
+<div class="min_width">
+	<div class="main">
+        
+        <div id="header">
+        	<div class="menu">
+            	<div class="menu_left">
+                	<div class="menu_right">
+                    	<div class="menu_indent">
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            &nbsp;
+                        	<ul>                        <li style="width: 168px">
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/pgHome.aspx">HOME</asp:HyperLink></li>
+                                <li style="width: 170px">&nbsp;<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/pgAboutProject.aspx">ABOUT PROJECT</asp:HyperLink>&nbsp;</li><li style="width: 142px">
+                                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/pgLogin.aspx">LOGIN</asp:HyperLink></li>
+                            </ul>	
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="indent">
+                <div class="logo">
+                    <h1>
+                        &nbsp;CREDIT  </h1>
+                    <div><span></span></div>
+                </div>
+                <div class="block_search">
+                    <br />
+                    <br />
+                    <br />
+                    &nbsp;<br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+        <!--header end-->
+        <!--content -->
+        <div class="content">
+            <div class="indent">
+                <div class="w100">
+                    <div class="column_center" style="height: 59px">
+                        <div class="indent_center">
+                        	<div class="title">
+                            	<div class="bg_title">
+                                    &nbsp;</div>
+                                <span></span>
+                            </div>
+                            <div class="title">
+                            	<div class="bg_title">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                        <strong><span style="font-size: 24pt; font-family: Palatino Linotype"></span></strong>
+                                    </asp:ContentPlaceHolder>
+                                    &nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="side_bar">
+                                    <div class="left_top">
+                                        <div class="right_top">
+                                            <div class="left_bot">
+                                                <div class="right_bot">
+                                                    <div style="text-align: center">
+                                                        <div style="text-align: center">
+                                                            <div style="text-align: center">
+                                                                &nbsp;
+                                                                <table style="width: 228px; height: 42px">
+                                                                    <tr>
+                                                                        <td style="width: 100px">
+                                                                            <asp:Label ID="Label1" runat="server" Font-Names="Palatino Linotype" Font-Size="Large"
+                                                                                ForeColor="White" Text="Recent News" Width="158px"></asp:Label></td>
+                                                                        <td style="width: 100px">
+                                                                            &nbsp;<asp:Image ID="Image1" runat="server" ImageUrl="~/Icons/credit-cards.ico" /></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            <div class="widget_style">
+                              <%--  <ol>
+                                        <li class="inside">
+                                            </li>
+                                </ol>--%>
+                                <strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                </strong>
+                            </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!--content end-->
+        <!--footer -->
+        <div id="footer">
+            <div style="text-align: right">
+                <table style="width: 40px">
+                    <tr>
+                        <td style="width: 100px">
+                            <%--<asp:Image ID="Image2" runat="server" ImageUrl="~/Icons/NewFolder1/home1.ico" />--%></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--footer end-->	
+    </div>
+</div>	
+</form>
+</body>
+</html>
